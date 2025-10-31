@@ -54,6 +54,6 @@ python3 main.py
 
 ## Notes
 
-This script was built as part of Alloy’s Technical Account Manager work assignment.
-All sensitive credentials are stored locally and excluded from version control.
-Code was both hand-written and in collaboration with LLM technology. All comments are human-writen
+- This script was built as part of Alloy’s Technical Account Manager work assignment.
+- All sensitive credentials are stored locally and excluded from version control.
+- Code was both human-written and in collaboration with LLM technology. All comments are human-writen
