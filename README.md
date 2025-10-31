@@ -12,7 +12,7 @@ This project uses Python3 to simulate a bank’s integration with the Alloy API 
 - Processes and displays the decision outcome (1 of 3, below): Approved, Manual Review, Denied.
 - Masks sensitive data (SSN) for terminal display.
 
-## Setup Instructions**
+## Setup Instructions
 
 ### Clone the Repo!
 
