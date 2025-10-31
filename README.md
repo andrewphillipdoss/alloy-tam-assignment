@@ -14,7 +14,7 @@ This project uses Python3 to simulate a bank’s integration with the Alloy API 
 
 ## Requirements
 
-- Python3.8+
+- Python 3.8+
 - requests
 - python-dotenv
 
