@@ -44,13 +44,13 @@ python3 main.py
 - Alloy sandbox credentials (token & secret, add these to your .env file)
 
 ## Project Structure
-'''
+```
 ├── app.py
 ├── get_parameters.py
 ├── requirements.txt
 ├── .env
 └── README.md
-'''
+```
 
 ## Notes
 
