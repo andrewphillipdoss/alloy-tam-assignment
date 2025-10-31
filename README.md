@@ -34,7 +34,9 @@ $ source venv/bin/activate
 ```
 $ pip install -r requirements.txt
 ```
-### Set up environment variables: Add your Alloy credentials to the .env file.
+### Set up environment variables 
+
+First, Add your Alloy credentials to your local .env file (reference env.example).
 ```
 ALLOY_WORKFLOW_TOKEN=your_token_here
 ALLOY_WORKFLOW_SECRET=your_secret_here
