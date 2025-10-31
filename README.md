@@ -1,4 +1,4 @@
-#Alloy API Integration Assignment**
+#Alloy API Integration Assignment
 
 ##Overview
 
