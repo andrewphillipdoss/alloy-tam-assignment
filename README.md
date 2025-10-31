@@ -36,3 +36,23 @@ ALLOY_WORKFLOW_SECRET=your_secret_here
 ### Run the Script
 
 python3 main.py
+
+## Requirements
+
+- Python 3.8 or higher (codes uses type hints that are on the relatively newer side, 3.8 is a safe modern baseline)
+- Internet connection (for Alloy API)
+- Alloy sandbox credentials (token & secret, add these to your .env file)
+
+## Project Structure
+
+├── app.py
+├── get_parameters.py
+├── requirements.txt
+├── .env
+└── README.md
+
+## Notes
+
+This script was built as part of Alloy’s Technical Account Manager work assignment.
+All sensitive credentials are stored locally and excluded from version control.
+Code was both hand-written and in collaboration with LLM technology. All comments are human-writen
