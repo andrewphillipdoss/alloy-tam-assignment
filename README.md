@@ -35,7 +35,7 @@ ALLOY_WORKFLOW_SECRET=your_secret_here
 ```
 ### Run the Script
 ```
-$ python3 main.py
+$ python3 app.py
 ```
 ## Requirements
 
