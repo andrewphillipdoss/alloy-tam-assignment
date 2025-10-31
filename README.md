@@ -4,7 +4,7 @@
 
 This project uses Python3 to simulate a bank’s integration with the Alloy API to evaluate new applicants, validate their data, and process decisions (Approved, Manual Review, or Denied) in sandbox mode.
 
-##Features**
+## Features
 
 - Collects applicant details via console input or default test users.
 - Validates console user input with regex to ensure data format integrity.
