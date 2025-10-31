@@ -52,6 +52,16 @@ python3 main.py
 └── README.md
 ```
 
+## Example Run
+```
+$ python3 app.py
+Do you wish to use default test data, or manual entry?
+1) Default test
+2) Manual entry
+Select '1' or '2':
+```
+
+
 ## Notes
 
 - This script was built as part of Alloy’s Technical Account Manager work assignment.
