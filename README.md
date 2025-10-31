@@ -38,8 +38,8 @@ $ pip install -r requirements.txt
 
 First, Add your Alloy credentials to your local .env file (reference env.example).
 ```
-ALLOY_WORKFLOW_TOKEN=your_token_here
-ALLOY_WORKFLOW_SECRET=your_secret_here
+ALLOY_WORKFLOW_TOKEN="your_token_here"
+ALLOY_WORKFLOW_SECRET="your_secret_here"
 ```
 ### Run the Script
 ```
