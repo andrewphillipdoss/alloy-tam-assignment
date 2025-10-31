@@ -16,17 +16,17 @@ This project uses Python3 to simulate a bank’s integration with the Alloy API 
 
 ### Clone the Repo!
 ```
-git clone https://github.com/yourusername/alloy-tam-assignment.git
-cd alloy-tam-assignment
+$ git clone https://github.com/yourusername/alloy-tam-assignment.git
+$ cd alloy-tam-assignment
 ```
 ### Setup your Virtual Environment!
 ```
-python3 -m venv venv
-source venv/bin/activate
+$ python3 -m venv venv
+$ source venv/bin/activate
 ```
 ### Install Dependencies!
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 ### Set up environment variables: Add your Alloy credentials to the .env file.
 ```
@@ -35,7 +35,7 @@ ALLOY_WORKFLOW_SECRET=your_secret_here
 ```
 ### Run the Script
 ```
-python3 main.py
+$ python3 main.py
 ```
 ## Requirements
 
