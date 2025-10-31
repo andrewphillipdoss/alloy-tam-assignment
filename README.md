@@ -12,6 +12,12 @@ This project uses Python3 to simulate a bank’s integration with the Alloy API 
 - Processes and displays the decision outcome (1 of 3, below): Approved, Manual Review, Denied.
 - Masks sensitive data (SSN) for terminal display.
 
+## Requirements
+
+- Python3
+- requests
+- python-dotenv
+
 ## Setup Instructions
 
 ### Clone the Repo!
@@ -109,4 +115,4 @@ Congratulations! You are approved.
 
 - This script was built as part of Alloy’s Technical Account Manager work assignment.
 - All sensitive credentials are stored locally and excluded from version control.
-- Code was both human-written and in collaboration with LLM technology. All comments are human-writen
+- Code was both human-written and in collaboration with LLM technology. All comments are human-written
