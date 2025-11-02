@@ -26,7 +26,7 @@ This tool can be accessed via a Command Line interface or a Web Interface.
 ├── main.py
 ├── get_parameters.py
 ├── requirements.txt
-├── .env
+├── .env (local only -- reference env.example)
 ├── README.md
 └── templates
     └── index.html
