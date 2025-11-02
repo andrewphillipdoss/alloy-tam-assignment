@@ -116,7 +116,7 @@ $ python3 app.py
 
 ## Example Run - Web Interface
 
-You will see the below when you run the above script. Once the development server is running, Visit http://127.0.0.1:5000 in your web browser to use the web app. 
+You will see the below when you run the above script. Once the development server is running, visit http://127.0.0.1:5000 in your web browser to use the web app. 
 
 ```
  * Serving Flask app 'app'
