@@ -36,7 +36,7 @@ This tool can be accessed via a Command Line interface or a Web Interface.
 
 ### Clone the Repo!
 ```
-$ git clone https://github.com/yourusername/alloy-tam-assignment.git
+$ git clone https://github.com/andrewphillipdoss/alloy-tam-assignment.git
 $ cd alloy-tam-assignment
 ```
 ### Setup your Virtual Environment!
