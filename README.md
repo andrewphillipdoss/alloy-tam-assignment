@@ -4,19 +4,33 @@
 
 This project uses Python3 to simulate a bank’s integration with the Alloy API to evaluate new applicants, validate their data, and process decisions (Approved, Manual Review, or Denied) in sandbox mode.
 
+This tool can be accessed via a Command Line interface or a Web Interface. 
+
 ## Features
 
-- Collects applicant details via console input or default test users.
-- Validates console user input with regex to ensure data format integrity.
+- Collects applicant details via console input or default test users for CLI, or offers web form interface.
+- Validates user input with regex to ensure data format integrity.
 - Submits data to Alloy’s Sandbox /v1/evaluations endpoint.
 - Processes and displays the decision outcome (1 of 3, below): Approved, Manual Review, Denied.
-- Masks sensitive data (SSN) for terminal display.
 
 ## Requirements
 
 - Python 3.8+
+- Flask
 - requests
 - python-dotenv
+
+## Project Structure
+```
+├── app.py
+├── main.py
+├── get_parameters.py
+├── requirements.txt
+├── .env
+├── README.md
+└── templates
+    └── index.html
+```
 
 ## Setup Instructions
 
@@ -41,26 +55,12 @@ First, Add your Alloy credentials to your local .env file (reference env.example
 ALLOY_WORKFLOW_TOKEN="your_token_here"
 ALLOY_WORKFLOW_SECRET="your_secret_here"
 ```
-### Run the Script
+### Run the Script - Option 1 - Command Line Interface
 ```
-$ python3 app.py
-```
-## Requirements
-
-- Python 3.8 or higher (codes uses type hints that are on the relatively newer side, 3.8 is a safe modern baseline)
-- Internet connection (for Alloy API)
-- Alloy sandbox credentials (token & secret, add these to your .env file)
-
-## Project Structure
-```
-├── app.py
-├── get_parameters.py
-├── requirements.txt
-├── .env
-└── README.md
+$ python3 main.py
 ```
 
-## Example Run
+## Example Run - Command Line Interface
 
 First, you are prompted to select from the options of default user entries or a manual entry
 
@@ -109,12 +109,29 @@ Status code: 201
 Congratulations! You are approved.
 ```
 
+## Run the Script - Option 2 - Web Interface
+```
+$ python3 app.py
+```
 
+## Example Run - Web Interface
 
+You will see the below when you run the above script. Once the development server is running, Visit http://127.0.0.1:5000 in your web browser to use the web app. 
 
+```
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 311-457-223
+ ```
 
 ## Notes
 
 - This script was built as part of Alloy’s Technical Account Manager work assignment.
 - All sensitive credentials are stored locally and excluded from version control.
-- Code was both human-written and in collaboration with LLM technology. All comments are human-written
+- Code was both human-written and in collaboration with LLM technology. All comments are human-written.
+
